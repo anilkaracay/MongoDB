@@ -1,0 +1,106 @@
+/* Arkaplan ve ortalama */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+/* Form container'ı ortalamak için */
+.vh-100 {
+  height: 100vh;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Arka plan rengi */
+.bg-secondary {
+  background-color: #f0f0f0;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+/* Form kutusu */
+.w-25 {
+  width: 350px; /* istersen %25 yapabilirsin */
+}
+
+.p-4 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+/* Margin */
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+/* Inputlar */
+.form-control {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #86b7fe;
+  outline: none;
+}
+
+.rounded-0 {
+  border-radius: 0 !important;
+}
+
+/* Buton */
+.btn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Mesaj kutusu */
+.text-success {
+  color: #28a745;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
